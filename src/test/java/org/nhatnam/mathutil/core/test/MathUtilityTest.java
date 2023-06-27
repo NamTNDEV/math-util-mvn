@@ -51,4 +51,9 @@ public class MathUtilityTest {
 
 //Và mảng hai chiều này Fill/Đổ từ từ vào trong hàm Assertequals()
 //kĩ thuật tách data test riêng ra 1 chỗ gọi là DDT
-//Data
+//Data Driven Testing - Viết code test hướng về việc tách data
+
+//Data được đưa vào trở lại qua các tham số/biến đại diện
+//nên DDT còn gọi là: Parameterized Testing
+//tham số hóa cái data test, biến data test thành tham số và
+//đưa hàm vào Assertequals()
