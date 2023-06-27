@@ -21,17 +21,6 @@ public class MathUtility {
             return 1;
         }
         return (long) n * getFactorial(n - 1);
-
-//        if (n == 0 || n == 1) {
-//            return 1;
-//        }
-//
-//        long product = 1; //Biến lưu dồn các tích 
-//        for (int i = 2; i <= n; i++) {
-//            product *= i;
-//        }
-//
-//        return product;
     }
 
 }
